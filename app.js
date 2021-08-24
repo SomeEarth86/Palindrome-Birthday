@@ -159,7 +159,7 @@ function checkBday(){
         else{
             var [counter, nextDate] = getNextPalindromeDate(numberDate);
             console.log(counter,nextDate);
-            resultDisplay.innerText = `The nearest palindrome date is ${numberDate.day}-${numberDate.month}-${numberDate.year}, you missed by ${counter} days.`;
+            resultDisplay.innerText = `The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed by ${counter} days.`;
         }
 
     }
